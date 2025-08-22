@@ -2,7 +2,7 @@ function Sobre() {
   return (
     <main className="flex flex-col lg:flex-row items-center justify-center lg:items-start lg:pt-20 w-full px-4">
       <img
-        src="../../public/vitor.jpeg"
+        src="/vitor.jpeg"
         alt="vitor"
         className="rounded-full w-64 h-64 border-3 border-[#7BE141] mb-6 lg:mb-0 lg:mr-20 flex-shrink-0"
       />

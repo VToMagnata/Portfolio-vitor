@@ -4,7 +4,7 @@ function Projetos() {
   return (
     <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4 sm:p-8 w-[100%] h-auto items-center justify-items-center sm:w-[80%]">
       <CardProject
-        img={"../../public/todolist.jpeg"}
+        img={"/todolist.jpeg"}
         title={"To-Do List"}
         description={"Lista de tarefas com React, Context API e Tailwind CSS"}
         tecnologies={["html", "react", "tailwind", "javascript"]}
@@ -15,7 +15,7 @@ function Projetos() {
         temSite={true}
       />
       <CardProject
-        img={"../../public/front-back.jpeg"}
+        img={"/front-back.jpeg"}
         title={"Login Backend/Frontend"}
         description={"Sistema de login completo com front-end e back-end."}
         tecnologies={[
