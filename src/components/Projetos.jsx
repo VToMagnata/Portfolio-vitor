@@ -32,6 +32,17 @@ function Projetos() {
         }}
         temSite={false}
       />
+      <CardProject
+        img={"/previsao.jpeg"}
+        title={"Previsão do tempo"}
+        description={"App de clima em React com previsão do tempo."}
+        tecnologies={["html", "javascript", "react", "tailwind"]}
+        links={{
+          site: "https://previsaovt.netlify.app",
+          git: "https://github.com/VToMagnata/Previsao",
+        }}
+        temSite={true}
+      />
     </main>
   );
 }
