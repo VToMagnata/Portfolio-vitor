@@ -15,16 +15,35 @@ function Sobre() {
           className="text-white max-w-[40em] border-t-2 border-white pt-4"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
-          Oi! Eu sou Vitor Losina Trevisan, alguém movido por curiosidade e
-          paixão pelo que faz. Gosto de desafios, de aprender coisas novas e de
-          criar soluções que realmente façam a diferença. Sou detalhista e
-          focado, mas também valorizo criatividade e novas perspectivas —
-          acredito que os melhores resultados vêm de combinar técnica com
-          imaginação. Fora do código, adoro explorar ideias, pensar fora da
-          caixa e sempre buscar evolução, tanto pessoal quanto profissional. Meu
-          objetivo é construir projetos que não só funcionem, mas que também
-          tenham impacto, significado e propósito.
+          Oi! Sou Vitor Losina Trevisan, alguém movido por desafios e pela
+          vontade de aprender constantemente. Gosto de explorar novas ideias,
+          testar soluções diferentes e criar projetos que realmente funcionem e
+          façam sentido. Sou detalhista, focado e organizado, mas também
+          valorizo criatividade e inovação na hora de resolver problemas. Fora
+          do mundo do código, estou sempre buscando evoluir, aprendendo coisas
+          novas e expandindo perspectivas. Meu objetivo é desenvolver projetos
+          que não apenas funcionem, mas que tenham impacto, propósito e tragam
+          resultados reais.
         </p>
+        <div className="flex items-center justify-end gap-4">
+          <img
+            src="./github.png"
+            className="w-[15%] h-[15%] cursor-pointer"
+            onClick={() =>
+              window.open("https://github.com/VToMagnata", "_blank")
+            }
+          />
+          <img
+            src="./linked.png"
+            className="w-[14%] h-[14%] rounded-xl cursor-pointer"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/vitor-trevisan-143467354",
+                "_blank"
+              )
+            }
+          />
+        </div>
       </aside>
     </main>
   );

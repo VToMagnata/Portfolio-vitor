@@ -10,7 +10,7 @@ function App() {
 
   return (
     <main>
-      <div className="w-screen min-h-screen bg-black flex flex-col items-center overflow-hidden">
+      <div className="w-screen min-h-screen bg-black flex flex-col items-center overflow-x-hidden">
         <NavBar />
         {nav === 1 ? (
           <Sobre />

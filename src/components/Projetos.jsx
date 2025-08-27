@@ -6,11 +6,24 @@ function Projetos() {
       <CardProject
         img={"/todolist.jpeg"}
         title={"To-Do List"}
-        description={"Lista de tarefas com React, Context API e Tailwind CSS"}
+        description={"Lista de tarefas com React, Context API e Tailwind CSS."}
         tecnologies={["html", "react", "tailwind", "javascript"]}
         links={{
           site: "https://todolistvt.netlify.app",
           git: "https://github.com/VToMagnata/To-Do_List",
+        }}
+        temSite={true}
+      />
+      <CardProject
+        img={"/projetobook.jpeg"}
+        title={"Books"}
+        description={
+          "Catálogo de livros com React, TypeScript, Axios e Tailwind."
+        }
+        tecnologies={["html", "react", "tailwind", "typescript", "axios"]}
+        links={{
+          site: "https://booksvt.netlify.app",
+          git: "https://github.com/VToMagnata/Books",
         }}
         temSite={true}
       />
