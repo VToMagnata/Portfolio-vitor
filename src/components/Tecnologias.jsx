@@ -52,6 +52,12 @@ function Tecnologias() {
       />
 
       <CardTec
+        icon={"https://static.cdnlogo.com/logos/n/80/next-js.svg"}
+        title={"Next.js"}
+        description={"Framework React para construir sites e apps rápidos."}
+      />
+
+      <CardTec
         icon={"https://cdn.simpleicons.org/nodedotjs/339933.svg"}
         title={"Node.js"}
         description={

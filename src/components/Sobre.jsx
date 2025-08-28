@@ -1,11 +1,21 @@
 function Sobre() {
   return (
     <main className="flex flex-col lg:flex-row items-center justify-center lg:items-start lg:pt-20 w-full px-4">
-      <img
-        src="/vitor.jpeg"
-        alt="vitor"
-        className="rounded-full w-64 h-64 border-3 border-[#7BE141] mb-6 lg:mb-0 lg:mr-20 flex-shrink-0"
-      />
+      <figure className="h-auto">
+        <img
+          src="/vitor.jpeg"
+          alt="vitor"
+          className="rounded-full w-64 h-64 border-3 border-[#7BE141] mb-6 lg:mb-0 lg:mr-20 flex-shrink-0"
+        />
+        <p className="text-white flex gap-2 justify-center lg:mr-20 pt-6">
+          <img src="/email.png" alt="email-icon" />
+          Vitortrevisan07@gmail.com
+        </p>
+        <p className="text-white flex gap-2 pl-[4.2%] justify-center lg:justify-start lg:mr-20 pt-4 mb-6 lg-mb-0">
+          <img src="/phone.png" alt="email-icon" />
+          {"(55) 9 9631-0526"}
+        </p>
+      </figure>
       <aside className="flex flex-col items-center lg:items-start">
         <h1 className="text-2xl text-[#7BE141]">VITOR</h1>
         <h3 className="mb-4 italic text-gray-400 text-lg sm:text-xl font-['Roboto']">
@@ -35,7 +45,7 @@ function Sobre() {
           />
           <img
             src="./linked.png"
-            className="w-[14%] h-[14%] rounded-xl cursor-pointer"
+            className="w-[14%] h-[14%] rounded-full cursor-pointer"
             onClick={() =>
               window.open(
                 "https://www.linkedin.com/in/vitor-trevisan-143467354",

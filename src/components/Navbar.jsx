@@ -7,10 +7,19 @@ function NavBar() {
   const [isOpen, setIsOpen] = useState(1);
   const [oldValue, setOldValue] = useState(1);
 
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/CurriculoATT.pdf";
+    link.download = "Curriculo_Vitor.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="w-[80%] h-20 border-b-2 border-white flex items-center gap-4 mb-6 sm:mb-8">
       <h1
-        className="md:mr-[19%] xl:mr-[56%] text-[#7BE141] sm:text-[2em] font-bold cursor-pointer"
+        className="md:mr-[5%] xl:mr-[50%] text-[#7BE141] sm:text-[2em] font-bold cursor-pointer"
         onClick={() => setNav(1)}
       >
         {"<VT/>"}
@@ -59,6 +68,12 @@ function NavBar() {
         onMouseLeave={() => setIsOpen(oldValue)}
       >
         Projetos
+      </button>
+      <button
+        onClick={handleDownload}
+        className="w-auto sm:pl-6 sm:pr-6 cursor-pointer h-[70%] rounded-xl transition-all duration-400 bg-[#7BE141] font-bold "
+      >
+        Baixar Currículo
       </button>
     </div>
   );
