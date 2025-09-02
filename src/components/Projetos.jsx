@@ -15,6 +15,17 @@ function Projetos() {
         temSite={true}
       />
       <CardProject
+        img={"/cinels.png"}
+        title={"CineList"}
+        description={"App de filmes com Next.js, TypeScript e Tailwind CSS."}
+        tecnologies={["Next.js", "TypeScript", "Tailwind CSS", "TMDb API"]}
+        links={{
+          site: "https://cinelistvt.netlify.app",
+          git: "https://github.com/VToMagnata/Cinelist",
+        }}
+        temSite={true}
+      />
+      <CardProject
         img={"/projetobook.jpeg"}
         title={"Books"}
         description={
