@@ -20,7 +20,7 @@ function Projetos() {
         description={"App de filmes com Next.js, TypeScript e Tailwind CSS."}
         tecnologies={["Next.js", "TypeScript", "Tailwind CSS", "TMDb API"]}
         links={{
-          site: "https://cinelistvt.netlify.app",
+          site: "https://cinelist-jet.vercel.app",
           git: "https://github.com/VToMagnata/Cinelist",
         }}
         temSite={true}
